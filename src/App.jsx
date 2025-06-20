@@ -1,11 +1,11 @@
-import { usenState } from 'react'
+import { useState } from 'react'
 
 import searchRobots from './api'
 import SearchBar from './components/SearchBar'
 import Robotslist from './components/Robotslist'
 
 function app(){
-  const[ robots, setRobots] = usenState([])
+  const[ robots, setRobots] = useState([])
 
   const hanleSubmit = async(term) => {
     console.log('usted esta buscando con:', term)

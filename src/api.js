@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const SearchRobots = async(term) => {
-    const url = "https://jsonplaceholder.typicode.code.com/users"
+    const url = "https://jsonplaceholder.typicode.com/users"
 
     const response = await axios.get(url, {
         params: {

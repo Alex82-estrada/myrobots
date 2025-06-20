@@ -19,13 +19,13 @@ function SearchBar({ onSubmit }) {
 
     return(
         <div className="search-bar">
-            <form onSublit={handleFormSublint}>
+            <form onSubmit={handleFormSublint}>
                 <label >Enter search Term</label>
-                <imput
-                className="imput is-info"
+                <input
+                className="input is-info"
                 type="text"
                 placeholder="info input"
-                onchange={handleChange}
+                onChange={handleChange}
                 value={term}
             />
             </form>

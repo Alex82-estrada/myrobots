@@ -15,7 +15,7 @@ function Card({name,email}){
                 <div className="card-content">
                     <div className="media">
                         <div className="media-content">
-                            <p className="title is-4">\{name}</p>
+                            <p className="title is-4">{name}</p>
                             <p className="sustitle is-5">{email}</p>
                         </div>
                     </div>
